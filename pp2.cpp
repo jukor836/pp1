@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstring>
 #include <pthread.h>
+#include <chrono>
 using namespace std;
 /* Функция, которую будет исполнять созданный поток */
 void *thread_job(void *arg)
